@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --sidebar-bg: #0b0e14;
+  --sidebar-text: #94a3b8;
+  --sidebar-hover: rgba(45, 212, 191, 0.1);
+  --sidebar-active: #2dd4bf;
+  --primary-color: #2dd4bf;
+  --bg-color: #05070a;
+  --card-bg: #0f172a;
+  --card-border: rgba(255, 255, 255, 0.05);
+  --text-main: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border-radius-lg: 24px;
+  --border-radius-md: 16px;
+  --transition-speed: 0.3s;
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.3);
+  --accent-cyan: #2dd4bf;
+  --accent-blue: #3b82f6;
+  --accent-orange: #fb923c;
+  --accent-red: #f87171;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  overflow: hidden;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
